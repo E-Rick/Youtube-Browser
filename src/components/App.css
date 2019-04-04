@@ -7,3 +7,22 @@
 body {
 	background-color: #1b1b1b;
 }
+
+.social-links {
+	margin-top: 450px;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+}
+
+h3 a {
+	color: white;
+	border-bottom: 1px solid #e53935;
+}
+
+h3 a:hover {
+	color: #e53935;
+	border-color: transparent;
+}

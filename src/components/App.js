@@ -48,6 +48,15 @@ export default class App extends Component {
 						</div>
 					</div>
 				</div>
+				{/* Social Links */}
+				<div className='social-links'>
+					<h3>
+						Built by <a href='https://www.erickjr.com'> Erick Martinez Jr.</a>
+					</h3>
+					<a href='https://github.com/E-Rick/Youtube-Browser'>
+						<i class='huge github icon inverted link' />
+					</a>
+				</div>
 			</div>
 		);
 	}
