@@ -4,7 +4,14 @@ import Moment from 'react-moment';
 
 const VideoDetail = ({ video }) => {
 	if (!video) {
-		return <div>Loading...</div>;
+		return (
+			<div>
+				<h1>
+					<i class='inverted huge spinner loading icon' />
+					Daily API Quota Limit Reached
+				</h1>
+			</div>
+		);
 	}
 
 	const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
