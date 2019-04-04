@@ -30,7 +30,7 @@ export default class App extends Component {
 		notification.open({
 			message     : 'Hey nice to see you here',
 			description : "Let's start by searching for some videos",
-			icon        : <Icon type='smile' style={{ color: '#108ee9' }} />
+			icon        : <Icon type='smile' style={{ color: '#e53935' }} />
 		});
 	};
 
