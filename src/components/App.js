@@ -9,7 +9,7 @@ export default class App extends Component {
 	state = { videos: [], selectedVideo: null };
 
 	componentDidMount() {
-		this.onTermSubmit('react js');
+		this.onTermSubmit('');
 		this.welcome();
 	}
 
