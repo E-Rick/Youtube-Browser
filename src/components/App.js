@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import VideoList from './VideoList';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
+import './App.css';
+import { Icon, notification } from 'antd';
 import VideoDetail from './VideoDetail';
-
 export default class App extends Component {
 	state = { videos: [], selectedVideo: null };
 
 	componentDidMount() {
 		this.onTermSubmit('react js');
+		this.welcome();
 	}
 
 	onTermSubmit = async term => {
@@ -22,6 +24,14 @@ export default class App extends Component {
 
 	onVideoSelect = video => {
 		this.setState({ selectedVideo: video });
+	};
+
+	welcome = () => {
+		notification.open({
+			message     : 'Hey nice to see you here',
+			description : "Let's start by searching for some videos",
+			icon        : <Icon type='smile' style={{ color: '#108ee9' }} />
+		});
 	};
 
 	render() {
