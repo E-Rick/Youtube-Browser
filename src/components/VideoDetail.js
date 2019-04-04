@@ -20,7 +20,7 @@ const VideoDetail = ({ video }) => {
 				<span className='video-date'>
 					Published on <Moment format='D MMM, YYYY' date={videoPublishDate} />
 				</span>
-				<hr />
+				<div class='ui inverted divider' />
 				<p>{video.snippet.description}</p>
 			</div>
 		</div>
