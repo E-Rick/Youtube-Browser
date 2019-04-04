@@ -1,0 +1,15 @@
+.video-detail.ui.segment {
+	background-color: #1b1b1b;
+	color: white;
+}
+
+.video-title.ui.header {
+	color: white;
+	font-size: 2rem;
+}
+
+span.video-date {
+	color: #6d6d6d;
+	font-size: 1.2rem;
+	margin-top: .5rem;
+}
