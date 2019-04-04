@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
 
+.ui.container {
+	padding-top: 1rem;
+}
+
 .App {
 	text-align: center;
 	background-color: #1b1b1b;
