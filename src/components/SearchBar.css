@@ -1,0 +1,25 @@
+.search-bar.ui.raised {
+	background-color: #424242;
+	margin-top: 1rem;
+}
+
+::placeholder {
+	color: #6d6d6d;
+}
+
+label {
+	color: #6d6d6d;
+}
+
+#search-input {
+	background-color: #1b1b1b;
+	color: #6d6d6d;
+}
+
+.search.icon {
+	color: #6d6d6d;
+}
+
+#search-input:focus {
+	border-color: #e53935;
+}
