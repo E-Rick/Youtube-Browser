@@ -24,10 +24,10 @@ h3 {
 
 h3 a {
 	color: white;
-	border-bottom: 1px solid #e53935;
+	border-bottom: 1px solid #d4ad5a;
 }
 
 h3 a:hover {
-	color: #e53935;
+	color: #d4ad5a;
 	border-color: transparent;
 }
